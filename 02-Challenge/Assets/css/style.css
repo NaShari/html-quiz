@@ -1,0 +1,35 @@
+ .header {
+     text-align: center;
+     font-size: 35px;
+     margin: auto;
+     width: 50%;
+     border: 3px Solid purple;
+     padding: 10px;
+ }
+
+ .In {
+     text-align: center;
+     padding-top: 10%;
+     font-size: 25px;
+     margin: auto;
+     width: 75%;
+ }
+
+ .btn {
+     font-size: 20px;
+     border: 3px;
+     border-radius: 6px;
+     padding: 5px 10px;
+     outline: none;
+ }
+
+ .btn-grid {
+     display: grid;
+     grid-template-columns: 4, auto;
+     gap: 5px;
+     margin: 20 px;
+ }
+
+ .hide {
+     display: none;
+ }
