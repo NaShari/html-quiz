@@ -1,3 +1,15 @@
+ *, *::before, *::after{
+    box-sizing: border-box;
+ }
+
+ 
+ .container {
+    width: 888px;
+    max-width: 80%;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px 2 px; 
+ }
  .header {
      text-align: center;
      font-size: 35px;
@@ -5,31 +17,37 @@
      width: 50%;
      border: 3px Solid purple;
      padding: 10px;
- }
-
+ } 
  .In {
      text-align: center;
      padding-top: 10%;
      font-size: 25px;
      margin: auto;
      width: 75%;
- }
-
- .btn {
+ } 
+ .btn { 
      font-size: 20px;
      border: 3px;
      border-radius: 6px;
      padding: 5px 10px;
      outline: none;
- }
-
+ } 
  .btn-grid {
      display: grid;
      grid-template-columns: 4, auto;
      gap: 5px;
      margin: 20 px;
  }
-
- .hide {
+ .start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+ } 
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide {
      display: none;
- }
+ } 
